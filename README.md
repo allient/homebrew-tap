@@ -3,7 +3,7 @@
 Homebrew formulas for Allient tools.
 
 ```sh
-brew install allient/tap/tui-git-graph
+brew install allient/tap/git-graph-tui
 ```
 
-Formulas are published automatically by each project's release workflow ([tui-git-graph](https://github.com/allient/tui-git-graph)).
+Formulas are published automatically by each project's release workflow ([git-graph-tui](https://github.com/allient/git-graph-tui)).
