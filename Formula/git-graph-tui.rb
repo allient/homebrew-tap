@@ -1,25 +1,25 @@
 class GitGraphTui < Formula
   desc "A Git Graph for the terminal: colored commit graph with context menus for checkout, merge, rebase, cherry-pick, reset and more."
   homepage "https://github.com/allient/git-graph-tui"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.1/git-graph-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "8fcdc6d860d6b23672617c12778eb3a8597d4c756e59eac883e4709b4beb8efd"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.2/git-graph-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "77987eb2ec9022f524a468888068471ad503819e5a8f86bb70a4e758eb303f5d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.1/git-graph-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "b33408dfc5afa13094603d20fc47d0d3d815763597149ffc560d4ad8f502c8f3"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.2/git-graph-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "d296e033160939204b44c62f18acca6e6325003ca4c554549bb8680109fab0d3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.1/git-graph-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0cf1b254880af2d5e16690c42b833566eac64c4e91ece973feb3edda445fcad6"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.2/git-graph-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "54ff411741b0e87e1084d61c16cb935324b90139196d5f985bf1d431d5b16c3e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.1/git-graph-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "564b3286fc8a24fd8da5e28caa23e28ae62245cc719dcfa8d338ee320244cf64"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.3.2/git-graph-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "15f7c118f948ab8ef9bdc22818e41a9b14f5a1f30464ef8ebbc3847fc9286df1"
     end
   end
   license "MIT"
