@@ -1,25 +1,25 @@
 class GitGraphTui < Formula
   desc "A Git Graph for the terminal: colored commit graph with context menus for checkout, merge, rebase, cherry-pick, reset and more."
-  homepage "https://github.com/allient/git-graph-tui"
-  version "0.6.2"
+  homepage "https://git-graph-tui.allient.io"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.6.2/git-graph-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "bc2d026f6ce5b166789fb7748571a4c0ffcb8b9402a43b2cfbf1777a38eb4855"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.7.0/git-graph-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "7e9cdce0937c0460cc1089b01b76ff037bc0757cb04249f3ae9aa254712ff6e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.6.2/git-graph-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "e107ae4391e19ae81ff56e4d5b68cd2f12df45f965e3e5c5b2beaf9ae8762962"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.7.0/git-graph-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "4a3dd29b04df751e496bd67a0982316856e1953fb26985b34dadafe219c1f93a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.6.2/git-graph-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9ead8ad7643bfcc647aa591f5d6a5c5322cc648fdf9e3bd562f03fec637ff5e6"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.7.0/git-graph-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c2973502f5882c8e3f6d4374328f21baa2b7413681c3e20d3e029d483c0ed91d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/allient/git-graph-tui/releases/download/v0.6.2/git-graph-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "485e08ab3abddefeb0254909a53a2b2556052d5a7dfcac6215c986869a6ca328"
+      url "https://github.com/allient/git-graph-tui/releases/download/v0.7.0/git-graph-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "26bf354d198c39977512013e100966b3f67f84bb6ab6029e777bff19fd01427a"
     end
   end
   license "MIT"
